@@ -6,6 +6,11 @@ public class GameOverScript : MonoBehaviour
 {
     public Button RetryBtn;
     public Button QuitBtn;
+    public GameObject GameOverScreen;
+
+    void start(){
+        GameOverScreen.SetActive(false);
+    }
 
     private void Awake()
     {
