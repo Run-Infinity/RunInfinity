@@ -1,7 +1,7 @@
 # RunInfinity
 This is the repository for the our group project based on VR. We'll continue this project further to be able to commercialize it as an app eventually.
 
-- The entire Backroom Map was Developed by Sahil
+- The entire Backroom Map and implementation of VR was done by Sahil
 - The Entity Figure and scripting was done by Harsh.
 - Additional entity and Protagonist scripting was done by Anant.
 - GameOver, NewGame, EndGame scripting and UI design was done by Faizal.
