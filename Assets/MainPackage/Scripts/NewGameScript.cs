@@ -17,7 +17,7 @@ public class NewGameScript : MonoBehaviour
     private void StartGame()
     {
         // Switch to the Level0 scene
-        SceneManager.LoadScene("Level0");
+        SceneManager.LoadScene("Level0_TEST");
     }
 
     private void QuitGame()
