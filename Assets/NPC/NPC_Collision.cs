@@ -3,11 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class NPC_Collision : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision collision)
+    public GameObject character;
+    private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.name == "Main Camera")
+        Debug.Log("collision ...");
+        SceneManager.LoadScene("Main_Menu");
+        if (collision.gameObject == character)
         {
-            SceneManager.LoadScene("NewGame");
+            Debug.Log("collision ...");
+            
         }
     }
 }
