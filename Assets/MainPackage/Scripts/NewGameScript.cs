@@ -4,14 +4,14 @@ using UnityEngine.UI;
 
 public class NewGameScript : MonoBehaviour
 {
-    public Button NewGameBtn;
-    public Button QuitGameBtn;
+    public Button Play_GameBtn;
+    public Button ExitBtn;
 
     private void Awake()
     {
         // Attach button click listeners
-        NewGameBtn.onClick.AddListener(StartGame);
-        QuitGameBtn.onClick.AddListener(QuitGame);
+        Play_GameBtn.onClick.AddListener(StartGame);
+        ExitBtn.onClick.AddListener(QuitGame);
     }
 
     private void StartGame()
