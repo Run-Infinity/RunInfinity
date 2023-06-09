@@ -27,7 +27,7 @@ EditorBuildSettings:
     path: Assets/MainPackage/Scenes/Level0_TEST.unity
     guid: 8fc2e92f637e3ad40a5bc62fb8c35644
   - enabled: 1
-    path: Assets/Game_End_UI/Scenes/win_2.unity
+    path: Assets/MainPackage/Game_End_UI/Scenes/win_2.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 9d29061d32c65fd4c811c90dcbaabaf6,
